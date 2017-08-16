@@ -36,20 +36,18 @@ This is meant only for demonstration purposes and as a simple boilerplate for be
 
 ### Projects connected to this one
 
-Todo Core:
+### Todo Core:
 Asp.net core web api + identity server projects that serves as backend and authorization server respectively.
-
 link: https://github.com/TamirHAhmed/TodoCore
 
-Todo Angular:
+### Todo Angular:
 Front end for the todo app using angular v4
-
 link: https://github.com/TamirHAhmed/TodoAngular
 
-Todo React Native:
+### Todo React Native:
 Cross platform mobile app for the todo app using react native - Expo - redux - redux-thunk .
-
 link:https://github.com/TamirHAhmed/Todo-React-Native
+
 
 
 #### Contribute
