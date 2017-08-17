@@ -16,6 +16,7 @@ const MainNavigator = TabNavigator({
   }, 
   {
     animationEnabled: false,
+    swipeEnabled: false,
     backBehavior: 'none',
     lazy: true,
     mode: Platform.OS === 'ios' ? 'modal' : 'card',
