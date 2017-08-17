@@ -158,7 +158,6 @@ class TodoScreen extends Component {
     }
 
     render() {
-        console.log(this.props);
         return(
             <View style={{ flex: 1 }}>
                 {this.renderHeader()}
@@ -190,7 +189,7 @@ const styles = {
 }
 
 const mapStateToProps = ({ todo, auth }) => {
-    return { todoList: todo, token: auth.token }
+    return { todo, token: auth.token }
 }
 
 export default connect(mapStateToProps, actions)(TodoScreen);
