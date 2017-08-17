@@ -12,10 +12,6 @@ import * as actions from '../actions';
 class AuthScreen extends Component {
     state = { email: '', password: ''};
 
-    componentWillUnmount() {
-        console.log('******************************** will unmounted');
-    }
-
     componentWillUpdate() {
         UIManager.setLayoutAnimationEnabledExperimental 
         && UIManager.setLayoutAnimationEnabledExperimental(true);
